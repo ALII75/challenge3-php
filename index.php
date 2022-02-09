@@ -12,7 +12,7 @@ echo $books['jardins des poemes enfantins'];
 
 asort($books);
 
-foreach($books as $titleBook => $date) 
-{
+foreach($books as $titleBook => $date) {
     echo " > $date - $titleBook";
 }
+
